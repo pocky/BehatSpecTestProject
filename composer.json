@@ -1,0 +1,17 @@
+{
+    "name": "rmiller/test",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../BehatSpec"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "rmiller/behat-spec": "dev-master"
+    }
+}

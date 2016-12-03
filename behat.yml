@@ -1,0 +1,4 @@
+default:
+    extensions:
+        RMiller\BehatSpecExtension\BehatExtension:
+            path: "%paths.base%/vendor/bin/phpspec"

@@ -1,0 +1,10 @@
+extensions:
+  - RMiller\BehatSpecExtension\PhpSpecExtension
+
+rerunner:
+    path: vendor/bin/phpspec
+    commands: [describe, exemplify]
+
+suites:
+    test:
+        src_path: "src"
